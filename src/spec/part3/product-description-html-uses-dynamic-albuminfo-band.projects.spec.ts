@@ -5,17 +5,11 @@ import {
 } from '@angular/platform-browser-dynamic/testing';
 
 import { TestBed, async, inject } from '@angular/core/testing';
-
 import { AppModule } from '../../app/app.module';
-
 import { Http, BaseRequestOptions, Response, ResponseOptions, RequestOptions } from '@angular/http';
-
 import { MockBackend, MockConnection } from '@angular/http/testing';
-
 import { Observable } from 'rxjs/Observable';
-
 import { Routes } from '@angular/router';
-
 import { RouterTestingModule } from '@angular/router/testing';
 
 let json = require('../../assets/album.json');
@@ -43,7 +37,6 @@ class AProductService {
 }
 
 describe('ProductDescription', () => {
-
   let product_service;
   let ProvidedService;
   let mock_backend;
